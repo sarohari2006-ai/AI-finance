@@ -16,6 +16,12 @@ frontend/.env
 frontend/vite_out.log
 frontend/vite_err.log
 
+# run.bat generated launchers
+backend/_start_backend.cmd
+frontend/_start_frontend.cmd
+run_test.log
+_test_runner.cmd
+
 # OS
 .DS_Store
 Thumbs.db

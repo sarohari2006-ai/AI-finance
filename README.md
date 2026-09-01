@@ -75,7 +75,23 @@ recommendations are computed (with formulas).
 - Python 3.11+ (Windows: the `py` launcher)
 - Node.js 18+ and npm
 
-### Backend
+### Quickest start (Windows): `run.bat`
+
+From the project root, just double-click **`run.bat`** (or run it from a terminal). It will:
+1. Detect Python and Node.js on your PATH
+2. Create the backend virtual environment and install all Python dependencies (first run only)
+3. Seed the database with question banks and 3 demo users (first run only)
+4. Install frontend npm dependencies (first run only)
+5. Launch the backend (port 8001) and frontend (port 5173) each in their own window
+
+Re-running it later skips steps that are already done and just starts both servers — so it's
+also the everyday "start the app" command, not just a one-time installer. Run **`stop.bat`** to
+close both server windows. No manual `pip install` / `npm install` / `venv` steps needed as long
+as Python and Node.js themselves are installed on the machine.
+
+### Manual setup
+
+#### Backend
 
 ```powershell
 cd backend
@@ -94,7 +110,7 @@ To use PostgreSQL instead of SQLite, set `DATABASE_URL` in `backend/.env`:
 DATABASE_URL=postgresql://user:password@localhost:5432/ai_finance
 ```
 
-### Frontend
+#### Frontend
 
 ```powershell
 cd frontend
