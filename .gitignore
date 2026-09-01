@@ -1,0 +1,21 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.db
+backend/.env
+backend/uvicorn_out.log
+backend/uvicorn_err.log
+backend/.pytest_cache/
+*.pyc
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/vite_out.log
+frontend/vite_err.log
+
+# OS
+.DS_Store
+Thumbs.db

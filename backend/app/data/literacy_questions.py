@@ -1,0 +1,88 @@
+"""Static financial-literacy question bank used to seed the database."""
+
+LITERACY_QUESTIONS = [
+    {
+        "question": "What does 'diversification' mean in investing?",
+        "options": ["Putting all your money in one stock", "Spreading investments across different assets to reduce risk", "Investing only in gold", "Avoiding the stock market entirely"],
+        "correct_answer": "Spreading investments across different assets to reduce risk",
+        "explanation": "Diversification reduces risk by spreading investments across different asset types, industries, or geographies so that a loss in one area doesn't sink your entire portfolio.",
+        "topic": "diversification",
+    },
+    {
+        "question": "What is an emergency fund typically meant to cover?",
+        "options": ["Luxury vacations", "3-6 months of essential living expenses", "New gadget purchases", "Stock market speculation"],
+        "correct_answer": "3-6 months of essential living expenses",
+        "explanation": "An emergency fund is a cash reserve, usually 3-6 months of expenses, set aside for unexpected events like job loss or medical emergencies.",
+        "topic": "emergency_funds",
+    },
+    {
+        "question": "If inflation is 6% per year, what happens to the purchasing power of money kept in cash?",
+        "options": ["It increases", "It stays the same", "It decreases", "It doubles"],
+        "correct_answer": "It decreases",
+        "explanation": "Inflation erodes purchasing power over time — the same amount of cash buys less as prices rise.",
+        "topic": "inflation",
+    },
+    {
+        "question": "What is 'compound interest'?",
+        "options": ["Interest paid only on the original principal", "Interest calculated on both the principal and previously earned interest", "A one-time fee", "A type of insurance"],
+        "correct_answer": "Interest calculated on both the principal and previously earned interest",
+        "explanation": "Compound interest grows your money faster over time because you earn interest on your interest, not just your original deposit.",
+        "topic": "interest",
+    },
+    {
+        "question": "Which of the following best describes a budget?",
+        "options": ["A record of past purchases only", "A plan for how you will spend and save your income", "A type of loan", "A government tax form"],
+        "correct_answer": "A plan for how you will spend and save your income",
+        "explanation": "A budget is a forward-looking plan that allocates income across spending, saving, and debt repayment.",
+        "topic": "budgeting",
+    },
+    {
+        "question": "What generally happens to your credit score if you miss loan payments?",
+        "options": ["It improves", "It has no effect", "It decreases", "It resets to zero"],
+        "correct_answer": "It decreases",
+        "explanation": "Missed payments are reported to credit bureaus and typically lower your credit score, making future borrowing more expensive.",
+        "topic": "credit",
+    },
+    {
+        "question": "Why might someone choose a savings account over investing in stocks for short-term goals?",
+        "options": ["Stocks are always risk-free", "Savings accounts are generally more stable and liquid for short time horizons", "Savings accounts offer higher long-term growth", "There is no difference"],
+        "correct_answer": "Savings accounts are generally more stable and liquid for short time horizons",
+        "explanation": "For short-term goals, stability and easy access to funds usually matter more than the potentially higher (but more volatile) returns of stocks.",
+        "topic": "investment_risk",
+    },
+    {
+        "question": "What is the main purpose of insurance?",
+        "options": ["To guarantee investment profits", "To transfer financial risk of specific losses to an insurer in exchange for premiums", "To avoid paying taxes", "To increase your credit score"],
+        "correct_answer": "To transfer financial risk of specific losses to an insurer in exchange for premiums",
+        "explanation": "Insurance lets you pay a smaller, predictable premium to protect against a larger, uncertain financial loss.",
+        "topic": "insurance",
+    },
+    {
+        "question": "What does 'EMI' stand for in the context of a loan?",
+        "options": ["Equal Monthly Installment", "Extra Monthly Income", "Estimated Market Index", "Emergency Monetary Instrument"],
+        "correct_answer": "Equal Monthly Installment",
+        "explanation": "An EMI is a fixed payment amount made by a borrower to a lender at a specified date each month, covering both interest and principal.",
+        "topic": "loans",
+    },
+    {
+        "question": "Which of these is generally considered a 'higher risk, higher potential return' investment compared to a fixed deposit?",
+        "options": ["Savings account", "Fixed deposit", "Equity / stocks", "Cash under the mattress"],
+        "correct_answer": "Equity / stocks",
+        "explanation": "Equities historically offer higher potential long-term returns than fixed deposits, but with greater short-term volatility and risk.",
+        "topic": "investment_risk",
+    },
+    {
+        "question": "What is a 'savings rate'?",
+        "options": ["The interest rate a bank charges on loans", "The percentage of income that is saved rather than spent", "The rate of inflation", "The tax rate on savings accounts"],
+        "correct_answer": "The percentage of income that is saved rather than spent",
+        "explanation": "Savings rate = (Income − Expenses) / Income, expressed as a percentage. It measures how much of your income you're setting aside.",
+        "topic": "saving",
+    },
+    {
+        "question": "Why is it generally risky to take on a new high-interest loan while already having a high debt-to-income ratio?",
+        "options": ["It has no real risk", "It increases the chance of default and financial stress", "It automatically improves your credit score", "It reduces your monthly expenses"],
+        "correct_answer": "It increases the chance of default and financial stress",
+        "explanation": "A high debt-to-income ratio means a large share of income already goes to debt repayment; adding more debt increases the risk of missed payments and financial strain.",
+        "topic": "loans",
+    },
+]
